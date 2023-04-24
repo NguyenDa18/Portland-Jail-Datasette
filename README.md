@@ -16,4 +16,5 @@ Creates SQLite database with `inmate_details` and `inmate_charges` tables
 
 - [Install Datasette](https://docs.datasette.io/en/stable/installation.html#installation)
 
-- Run `datasette inmate_details.db --open` from the command line
+- Make changes to `csv_to_db.py` file to generate a SQLite .db file that is used to generate a Datasette
+- Run `datasette pdx_inmates_data.db --open` from the command line
